@@ -135,8 +135,8 @@ if ("${VERSION_COMMIT}" MATCHES "^v.*")
   set (VERSION_COMMIT "")
 endif()
 
-configure_file (${CMAKE_CURRENT_SOURCE_DIR}/cmake/modules/version.c.in
-                ${CMAKE_CURRENT_BINARY_DIR}/src/version.c)
+configure_file (${CMAKE_CURRENT_SOURCE_DIR}/cmake/modules/version.h.in
+                ${CMAKE_CURRENT_BINARY_DIR}/include/version.h)
 
 # this is the library version, independant of git revision
 set (mraa_VERSION_MAJOR ${VERSION_MAJOR})

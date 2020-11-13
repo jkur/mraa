@@ -1,0 +1,20 @@
+// Auto-Generated file
+//#include "version.h"
+
+#ifndef VERSION_H
+#define VERSION_H
+
+#ifdef __cplusplus
+extern "C" {
+#endif
+
+
+const char* gVERSION = "@VERSION@";
+const char* gVERSION_SHORT = "@VERSION_SHORT@";
+
+
+#ifdef __cplusplus
+}
+#endif
+
+#endif
